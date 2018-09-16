@@ -7,8 +7,9 @@ public class Milk : MonoBehaviour
     int number; //长高数量
     void OnEnable()
     {
-        number = Random.Range(1, 10);
-        transform.GetComponentInChildren<TextMesh>().text = number.ToString();
+        //来一个随机数字并显示
+        number = Random.Range(1, 10); 
+        transform.GetComponentInChildren<TextMesh>().text = number.ToString(); 
     }
     void OnTriggerEnter2D() //触发时调用一次
     {
