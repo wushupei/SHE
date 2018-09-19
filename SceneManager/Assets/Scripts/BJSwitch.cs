@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class BJSwitch : MonoBehaviour
 {
-    public Transform player;
-    public Transform other;
+    public Transform player; //主角
+    public Transform other; //另一张背景
     public bool up=false;
-	void Start ()
-    {
-		
-	}
     void Update()
     {
         if (player.position.y > transform.position.y&&other.position.y<transform.position.y) //如果主角比自己高,另一个比自己低

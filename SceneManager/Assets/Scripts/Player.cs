@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour //挂主角
 {
-    Rigidbody2D r2d;
+    Rigidbody2D r2d; //刚体
     float y_speed, x_speed; //声明x和y轴的速度
     public bool bump; //是否撞到东西
     public Vector2 size; //声明自身大小
@@ -16,7 +16,7 @@ public class Player : MonoBehaviour //挂主角
     void Update()
     {
         if (bump == false) //没撞到东西时
-            y_speed += Time.deltaTime * 5;
+            y_speed += Time.deltaTime *5;
 
         PlayerMove();
     }
