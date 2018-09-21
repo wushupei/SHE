@@ -8,13 +8,15 @@ public class Milk : MonoBehaviour
     void OnEnable()
     {
         //来一个随机数字并显示
-        number = Random.Range(1, 6); 
-        transform.GetComponentInChildren<TextMesh>().text = number.ToString(); 
+        number = Random.Range(1,6);
+        transform.GetComponentInChildren<TextMesh>().text = number.ToString();
     }
     void OnTriggerEnter2D() //触发时调用一次
     {
-        GrowTaller();     
+        AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().milk, transform.position); //播放声音
+        GrowTaller();        
     }
+
     void GrowTaller() //牺牲自己,令主角长高
     {
         BodyManager bm = FindObjectOfType<BodyManager>(); //找到身体管理器脚本

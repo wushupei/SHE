@@ -9,48 +9,54 @@ public class Enemy : MonoBehaviour
     float timer; //计时器
     BodyManager bm; //声明肢节管理器脚本
     Player p; //声明主角脚本
+
+    Material material;
+    float h = 0.05f;
     void OnEnable()
     {
         //来一个随机数字,获取子物体数字
         number = Random.Range(1, 61);
         text = GetComponentInChildren<TextMesh>();
+        text.text = number.ToString();
 
         bm = FindObjectOfType<BodyManager>(); //获取肢体管理器脚本
-
-        p = FindObjectOfType<Player>();
+        p = FindObjectOfType<Player>(); //主角脚本
 
         RandomColor(number);
     }
     void RandomColor(int number) //发光
     {
-        float h = 0;
         if (number < 11)
-            h = 0.85f;
+            h = 0.8f;
         else if (number < 21)
-            h = 0.65f;
+            h = 0.6f;
         else if (number < 31)
-            h = 0.5f;
+            h = 0.45f;
         else if (number < 41)
             h = 0.3f;
         else if (number < 51)
-            h = 0.18f;
-        GetComponent<Renderer>().material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //发光
+            h = 0.2f;
+        material = GetComponent<Renderer>().material;
+        material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //发光
     }
-
-    void Update()
-    {        
-        text.text = number.ToString("0"); //实时将随机数字显示
-        if (number < 1) //数字小于1(为0),删除自身
-        {
-            Destroy(gameObject);
-            p.bump = false; //接触主角的碰壁状态
-        }
-    }
-
     private void OnCollisionStay2D(Collision2D player) //碰撞中持续调用
     {
         if (Bump(player.transform)) //如果碰上,缩短
+        {
             Shorten();
+            material.SetColor("_EmissionColor", Color.HSVToRGB(Random.value, 1.2f, 1)); //发光
+        }
+        else
+            material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //发光
+
+        if (number < 1) //数字小于1(为0),删除自身
+        {
+            Destroy(gameObject);
+            //播放特效和声音
+            Instantiate(Resources.Load("粒子/敌人爆炸/EnemyBoom"),transform.position,Quaternion.identity);
+            AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().enemy, transform.position);
+            p.bump = false; //解除主角的碰壁状态
+        }
     }
     bool Bump(Transform player) //根据主角和敌人的位置判断是否撞上
     {
@@ -69,18 +75,16 @@ public class Enemy : MonoBehaviour
         p.bump = x_dis < x_off && y_dis - y_off < 0.1f && player.position.y < transform.position.y;
         return p.bump;
     }
-
     void Shorten()//缩短
     {
         timer += Time.deltaTime;
         if (timer > 0)
         {
-            bm.RemoveBody(); //调用肢节管理器的移除方法
-            number -= 1; //自身数字-1           
-            timer = -0.05f; //每0.05秒调用一次           
+            bm.RemoveBody(); //调用肢节管理器的移除方法   
+            text.text = (--number).ToString(); //数字-1并显示
+            timer = -0.05f; //每0.05秒调用一次               
         }
     }
-
     void OnBecameInvisible() //离开摄像机时销毁
     {
         Destroy(gameObject);

@@ -1,0 +1,1853 @@
+fileFormatVersion: 2
+guid: 2f7634344ea6265479e029c0423ad116
+timeCreated: 1537433459
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: font-40x40-fps_0
+    21300002: font-40x40-fps_1
+    21300004: font-40x40-fps_2
+    21300006: font-40x40-fps_3
+    21300008: font-40x40-fps_4
+    21300010: font-40x40-fps_5
+    21300012: font-40x40-fps_6
+    21300014: font-40x40-fps_7
+    21300016: font-40x40-fps_8
+    21300018: font-40x40-fps_9
+    21300020: font-40x40-fps_10
+    21300022: font-40x40-fps_11
+    21300024: font-40x40-fps_12
+    21300026: font-40x40-fps_13
+    21300028: font-40x40-fps_14
+    21300030: font-40x40-fps_15
+    21300032: font-40x40-fps_16
+    21300034: font-40x40-fps_17
+    21300036: font-40x40-fps_18
+    21300038: font-40x40-fps_19
+    21300040: font-40x40-fps_20
+    21300042: font-40x40-fps_21
+    21300044: font-40x40-fps_22
+    21300046: font-40x40-fps_23
+    21300048: font-40x40-fps_24
+    21300050: font-40x40-fps_25
+    21300052: font-40x40-fps_26
+    21300054: font-40x40-fps_27
+    21300056: font-40x40-fps_28
+    21300058: font-40x40-fps_29
+    21300060: font-40x40-fps_30
+    21300062: font-40x40-fps_31
+    21300064: font-40x40-fps_32
+    21300066: font-40x40-fps_33
+    21300068: font-40x40-fps_34
+    21300070: font-40x40-fps_35
+    21300072: font-40x40-fps_36
+    21300074: font-40x40-fps_37
+    21300076: font-40x40-fps_38
+    21300078: font-40x40-fps_39
+    21300080: font-40x40-fps_40
+    21300082: font-40x40-fps_41
+    21300084: font-40x40-fps_42
+    21300086: font-40x40-fps_43
+    21300088: font-40x40-fps_44
+    21300090: font-40x40-fps_45
+    21300092: font-40x40-fps_46
+    21300094: font-40x40-fps_47
+    21300096: font-40x40-fps_48
+    21300098: font-40x40-fps_49
+    21300100: font-40x40-fps_50
+    21300102: font-40x40-fps_51
+    21300104: font-40x40-fps_52
+    21300106: font-40x40-fps_53
+    21300108: font-40x40-fps_54
+    21300110: font-40x40-fps_55
+    21300112: font-40x40-fps_56
+    21300114: font-40x40-fps_57
+    21300116: font-40x40-fps_58
+    21300118: font-40x40-fps_59
+    21300120: font-40x40-fps_60
+    21300122: font-40x40-fps_61
+    21300124: font-40x40-fps_62
+    21300126: font-40x40-fps_63
+    21300128: font-40x40-fps_64
+    21300130: font-40x40-fps_65
+    21300132: font-40x40-fps_66
+    21300134: font-40x40-fps_67
+    21300136: font-40x40-fps_68
+    21300138: font-40x40-fps_69
+    21300140: font-40x40-fps_70
+    21300142: font-40x40-fps_71
+    21300144: font-40x40-fps_72
+    21300146: font-40x40-fps_73
+    21300148: font-40x40-fps_74
+    21300150: font-40x40-fps_75
+    21300152: font-40x40-fps_76
+    21300154: font-40x40-fps_77
+    21300156: font-40x40-fps_78
+    21300158: font-40x40-fps_79
+    21300160: font-40x40-fps_80
+    21300162: font-40x40-fps_81
+    21300164: font-40x40-fps_82
+    21300166: font-40x40-fps_83
+    21300168: font-40x40-fps_84
+    21300170: font-40x40-fps_85
+    21300172: font-40x40-fps_86
+    21300174: font-40x40-fps_87
+    21300176: font-40x40-fps_88
+    21300178: font-40x40-fps_89
+    21300180: font-40x40-fps_90
+    21300182: font-40x40-fps_91
+    21300184: font-40x40-fps_92
+    21300186: font-40x40-fps_93
+    21300188: font-40x40-fps_94
+    21300190: font-40x40-fps_95
+    21300192: font-40x40-fps_96
+    21300194: font-40x40-fps_97
+    21300196: font-40x40-fps_98
+    21300198: font-40x40-fps_99
+    21300200: font-40x40-fps_100
+    21300202: font-40x40-fps_101
+    21300204: font-40x40-fps_102
+    21300206: font-40x40-fps_103
+    21300208: font-40x40-fps_104
+    21300210: font-40x40-fps_105
+    21300212: font-40x40-fps_106
+    21300214: font-40x40-fps_107
+    21300216: font-40x40-fps_108
+    21300218: font-40x40-fps_109
+    21300220: font-40x40-fps_110
+    21300222: font-40x40-fps_111
+    21300224: font-40x40-fps_112
+    21300226: font-40x40-fps_113
+    21300228: font-40x40-fps_114
+    21300230: font-40x40-fps_115
+    21300232: font-40x40-fps_116
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: font-40x40-fps_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 285
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 295
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 286
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 283
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 286
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 286
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 295
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 286
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_8
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 286
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_9
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 295
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 286
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 283
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 292
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_13
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 286
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 246
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 246
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_20
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 246
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_25
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 246
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_26
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 243
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_27
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 246
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_28
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 246
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 206
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 205
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 203
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_33
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 206
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_37
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 206
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_38
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_39
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_40
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_41
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_42
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 206
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 206
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_45
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 166
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_46
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 166
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 166
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 166
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_50
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_51
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_52
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_53
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 166
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_54
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 166
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_55
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 166
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_56
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_57
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_58
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 166
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 126
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_60
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_61
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 132
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 126
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_63
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 135
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 126
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 126
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_66
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 126
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_67
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 126
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 126
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_69
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 126
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 123
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 126
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_72
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 126
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_73
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 123
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_74
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 86
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_75
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 86
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_76
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 86
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_77
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 86
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 86
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_79
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 83
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_80
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 83
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_81
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 86
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_82
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 86
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_83
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 86
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_84
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 86
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 86
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_86
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 86
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_87
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 86
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_88
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 46
+        width: 20
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 46
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_90
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 46
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_91
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 46
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_92
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 46
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_93
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 52
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_94
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 43
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_95
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 46
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_96
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 46
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_97
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 46
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_98
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 46
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_99
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 46
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_100
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 46
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_101
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 43
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_102
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_103
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_104
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 6
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_105
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_106
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 6
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_107
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 6
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_108
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_109
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 6
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_110
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 6
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_111
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 6
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_112
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 6
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_113
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 6
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_114
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 6
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_115
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 6
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: font-40x40-fps_116
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 6
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
