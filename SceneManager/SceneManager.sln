@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneManager", "Assembly-CSharp.csproj", "{0B85C5AF-B48A-BBAA-9482-ED1D7BFD51F0}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SceneManager", "SceneManager.csproj", "{FE280F63-9484-24E9-EA8A-99B52D114870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B85C5AF-B48A-BBAA-9482-ED1D7BFD51F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B85C5AF-B48A-BBAA-9482-ED1D7BFD51F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B85C5AF-B48A-BBAA-9482-ED1D7BFD51F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B85C5AF-B48A-BBAA-9482-ED1D7BFD51F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE280F63-9484-24E9-EA8A-99B52D114870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE280F63-9484-24E9-EA8A-99B52D114870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE280F63-9484-24E9-EA8A-99B52D114870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE280F63-9484-24E9-EA8A-99B52D114870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

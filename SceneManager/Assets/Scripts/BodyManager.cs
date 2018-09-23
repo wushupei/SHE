@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BodyManager : MonoBehaviour
 {
@@ -8,16 +9,19 @@ public class BodyManager : MonoBehaviour
     public GameObject body; //肢节预制体拖进去   
     List<Transform> bodys = new List<Transform>(); //存放所有肢节
     TextMesh number; //肢节数量文本
-    ScoreText scoreText;
-    int score; //分数
+
+    ScoreManager sm; //声明分数管理器
+    public Image[] sprites; //当前分数图片
+    int score; //当前分数
+    int topScore; //历史最高分
     void Start()
     {
-        scoreText = FindObjectOfType<ScoreText>();
+        sm = new ScoreManager("Sprites/Number1"); //加载该组精灵图片
         number = player.GetComponentInChildren<TextMesh>();
     }
     void Update()
     {
-        Swing();           
+        Swing();
     }
     void Swing() //摆动
     {
@@ -58,13 +62,24 @@ public class BodyManager : MonoBehaviour
         {
             Destroy(bodys[bodys.Count - 1].gameObject); //从子物体移除 
             bodys.Remove(bodys[bodys.Count - 1]);
-            scoreText.ShowScore(++score);
+            sm.ShowScore(++score, sprites);
             number.text = (bodys.Count).ToString();
         }
         else
         {
+            SaveTopScor(); //储存最高分
             player.GetComponent<Player>().Death(); //死亡
-            number.text ="";
+            number.text = "";
+        }
+    }
+    void SaveTopScor() //保存最高分
+    {
+        if (PlayerPrefs.HasKey("最高分")) //获取最高分
+            topScore = PlayerPrefs.GetInt("最高分");
+        if (score > topScore) //刷新最高分
+        {
+            topScore = score;
+            PlayerPrefs.SetInt("最高分", topScore);
         }
     }
 }

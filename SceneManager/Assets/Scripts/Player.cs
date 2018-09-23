@@ -9,7 +9,7 @@ public class Player : MonoBehaviour //挂主角
     public ParticleSystem hitEffect; //撞击特效
     public ParticleSystem deathEffect; //死亡特效
     AudioSource hitAudio; //撞击声音
-    public GameObject startButton;
+    public GameObject menu;
 
     float y_speed, x_speed; //声明x和y轴的速度
     public bool bump; //是否撞到东西
@@ -50,8 +50,8 @@ public class Player : MonoBehaviour //挂主角
         Destroy(r2d); //移除刚体
         bump = false; //解除碰撞状态
         Instantiate(deathEffect, transform.position, Quaternion.identity); //在此生成爆炸特效
-        Destroy(GetComponent<SpriteRenderer>()); //销毁自身精灵组件
-        AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().death, transform.position);
-        startButton.SetActive(true);
+        AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().death, transform.position); //播放声音
+        Destroy(GetComponent<SpriteRenderer>()); //销毁自身精灵组件       
+        menu.SetActive(true); //启动菜单
     }
 }

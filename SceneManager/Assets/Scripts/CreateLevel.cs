@@ -7,7 +7,7 @@ public class CreateLevel : MonoBehaviour
     Transform[] createPoints; //所有生成点
     public Transform player; //主角
     public GameObject enemy, milk; //敌人和牛奶预制体
-    bool createType; //根据值来决定生成敌人还是牛奶
+    bool createType = false; //根据值来决定生成敌人还是牛奶
     float height = 3; //记录主角高度
     void Start()
     {
@@ -26,13 +26,13 @@ public class CreateLevel : MonoBehaviour
         if (player.position.y > height)
         {
             CreateObj(); //生成物体
-            createType = !createType; //bool值取反
+            createType = !createType; //bool值为true
             height += 3; //每走3米,生成一次物体
         }
     }
     void CreateObj() //根据bool值判断生成物体种类
     {
-        if (createType) 
+        if (createType)
             CreateEnemy();
         else
             CreateMilk();
@@ -48,7 +48,7 @@ public class CreateLevel : MonoBehaviour
                 //一定几率生成敌人
                 if (Random.Range(0, 10) > 0) //90%在该生成点生成敌人
                 {
-                    Instantiate(enemy, createPoints[i].position, Quaternion.identity);
+                    Instantiate(enemy, createPoints[i].position + Vector3.up * height, Quaternion.identity);
                 }
             }
         }
@@ -60,7 +60,7 @@ public class CreateLevel : MonoBehaviour
             //一定几率生成牛奶
             if (Random.Range(0, 10) > 8) //10%在该生成点生成牛奶
             {
-                Instantiate(milk, createPoints[i].position, Quaternion.identity);
+                Instantiate(milk, createPoints[i].position + Vector3.up * height, Quaternion.identity);
             }
         }
     }
