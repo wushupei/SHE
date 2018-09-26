@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+    int topScore;
     string _path;
     Sprite[] numbers; //储存所有的数字图片
     public ScoreManager(string path)
@@ -12,8 +13,8 @@ public class ScoreManager : MonoBehaviour
         _path = path;
         numbers = Resources.LoadAll<Sprite>(_path);
     }
-    public void ShowScore(int score, Image[]sprites) //根据分数更换精灵图片
-    {      
+    public void ShowScore(int score, Image[] sprites) //根据分数更换精灵图片
+    {
         switch (score.ToString().Length) //判断分数的位数
         {
             case 1:
@@ -46,5 +47,12 @@ public class ScoreManager : MonoBehaviour
                 sprites[3].sprite = numbers[score / 1000];
                 break;
         }
+    }
+    public void SaveTopScor(int score) //保存最高分
+    {
+        if (PlayerPrefs.HasKey("最高分")) //获取最高分
+            topScore = PlayerPrefs.GetInt("最高分");
+        if (score > topScore) //当前分数超过最高分,则刷新最高分
+            PlayerPrefs.SetInt("最高分", score);
     }
 }

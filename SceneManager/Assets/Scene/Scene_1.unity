@@ -502,7 +502,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 578985659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: -0.5}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1313682068}
@@ -832,6 +832,7 @@ MonoBehaviour:
   milk: {fileID: 8300000, guid: 183c9f4926d13b749be0839528c007e6, type: 3}
   enemy: {fileID: 8300000, guid: 08e00ec04a4472b40ad8e43019f975ed, type: 3}
   death: {fileID: 8300000, guid: 92d6893b99d90bc46b76eadad3c5ea09, type: 3}
+  cameraTh: {fileID: 1387715337}
 --- !u!4 &804373211
 Transform:
   m_ObjectHideFlags: 0

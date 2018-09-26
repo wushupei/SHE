@@ -12,11 +12,9 @@ public class Milk : MonoBehaviour
         transform.GetComponentInChildren<TextMesh>().text = number.ToString();
     }
     void OnTriggerEnter2D() //触发时调用一次
-    {
-        AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().milk, transform.position); //播放声音
+    {       
         GrowTaller();        
     }
-
     void GrowTaller() //牺牲自己,令主角长高
     {
         BodyManager bm = FindObjectOfType<BodyManager>(); //找到身体管理器脚本
@@ -25,9 +23,9 @@ public class Milk : MonoBehaviour
             bm.AddBody(); //根据长高数量增加肢节
         }
         Destroy(gameObject); //销毁自身
+        FindObjectOfType<AudioManager>().PlayAudio("M"); //播放牛奶声音
     }
-
-    void OnBecameInvisible() //离开摄像机时销毁自身
+    void OnBecameInvisible() //离开摄像机视锥时销毁自身
     {
         Destroy(gameObject);
     }

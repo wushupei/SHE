@@ -4,27 +4,28 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    int number; //缩短数量
-    TextMesh text; //文本数字
-    float timer; //计时器
+    int hp; //血量
+    TextMesh text; //血量显示文本
+    float timer; //计时器 
     BodyManager bm; //声明肢节管理器脚本
     Player p; //声明主角脚本
 
-    Material material;
-    float h = 0.05f;
+    Material material; //自身材质
+    float h = 0.05f; //颜色的H值
     void OnEnable()
     {
-        //来一个随机数字,获取子物体数字
-        number = Random.Range(1, 61);
+        //来一个随机数字作为血量并显示
+        hp = Random.Range(1, 61);
         text = GetComponentInChildren<TextMesh>();
-        text.text = number.ToString();
+        text.text = hp.ToString();
 
         bm = FindObjectOfType<BodyManager>(); //获取肢体管理器脚本
         p = FindObjectOfType<Player>(); //主角脚本
 
-        RandomColor(number);
+        material = GetComponent<Renderer>().material;
+        RandomColor(hp);
     }
-    void RandomColor(int number) //发光
+    void RandomColor(int number) //根据初始血量发不同的光
     {
         if (number < 11)
             h = 0.8f;
@@ -35,26 +36,25 @@ public class Enemy : MonoBehaviour
         else if (number < 41)
             h = 0.3f;
         else if (number < 51)
-            h = 0.2f;
-        material = GetComponent<Renderer>().material;
+            h = 0.2f;      
         material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //发光
     }
     private void OnCollisionStay2D(Collision2D player) //碰撞中持续调用
     {
-        if (Bump(player.transform)) //如果碰上,缩短
+        if (Bump(player.transform)) //如果碰上
         {
-            Shorten();
-            material.SetColor("_EmissionColor", Color.HSVToRGB(Random.value, 1.2f, 1)); //发光
+            Shorten(); //缩短
+            material.SetColor("_EmissionColor", Color.HSVToRGB(Random.value, 1.2f, 1)); //闪光
         }
         else
-            material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //发光
+            material.SetColor("_EmissionColor", Color.HSVToRGB(h, 1.2f, 1)); //显示最初颜色
 
-        if (number < 1) //数字小于1(为0),删除自身
+        if (hp < 1) //数字小于1(为0),删除自身
         {
             Destroy(gameObject);
             //播放特效和声音
             Instantiate(Resources.Load("粒子/敌人爆炸/EnemyBoom"),transform.position,Quaternion.identity);
-            AudioSource.PlayClipAtPoint(FindObjectOfType<AudioManager>().enemy, transform.position);
+            FindObjectOfType<AudioManager>().PlayAudio("E"); 
             p.bump = false; //解除主角的碰壁状态
         }
     }
@@ -81,11 +81,11 @@ public class Enemy : MonoBehaviour
         if (timer > 0)
         {
             bm.RemoveBody(); //调用肢节管理器的移除方法   
-            text.text = (--number).ToString(); //数字-1并显示
+            text.text = (--hp).ToString(); //血量-1并显示
             timer = -0.05f; //每0.05秒调用一次               
         }
     }
-    void OnBecameInvisible() //离开摄像机时销毁
+    void OnBecameInvisible() //离开摄像机视锥时销毁
     {
         Destroy(gameObject);
     }

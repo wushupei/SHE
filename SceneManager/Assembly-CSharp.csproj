@@ -54,13 +54,14 @@
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\BJSwitch.cs" />
      <Compile Include="Assets\Scripts\BodyManager.cs" />
+     <Compile Include="Assets\Scripts\ButtonEventManager.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\CreateLevel.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Milk.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\ScoreText.cs" />
-     <Compile Include="Assets\Scripts\StartButton.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/RuanJian/Unity/MyUnity2017/ZhiXingWenJian/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
